@@ -1,22 +1,12 @@
 
-backStr = ''
-
 myStr = input("Enter a string: ")
 
-length = len(myStr)
-
-i = length-1
-
-while i >= 0: 
-    backStr = backStr + myStr[i]
-    i -= 1
-
-print("Revered form:",backStr)
+backwardStr = myStr[::-1]
+print("Revered form:",backwardStr)
 
 
-if myStr == backStr:
+if myStr == backwardStr:
     print("Given string is a palindrome.")
 
-elif myStr != backStr:
+elif myStr != backwardStr:
     print("Given string is not a palindrome.")
-

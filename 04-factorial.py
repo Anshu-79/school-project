@@ -1,20 +1,14 @@
 
 num = int(input("\nEnter number: "))
+ans = 1
 
-try:
-	if num == 0:
-		ans = 1
-		print(ans)
+if num == 0 or num == 1:
+  print(ans)
 
-	elif num == 1:
-		ans = 1
-		print(ans)
+elif num > 1:
+  for n in range(1, num+1):
+    ans *= n
+  print(ans)
 
-	else:
-		ans = 1
-		for middle_nums in range(1, num+1):
-			ans *= middle_nums
-		print(ans)
-
-except ValueError:
+else:
 	print("Incorrect input. ValueError occured.")

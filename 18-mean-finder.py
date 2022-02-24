@@ -7,6 +7,7 @@ Your numbers: """)
 
 inpList = inpStr.split(',')
 
+#numbers were stored as str, so we change them to int
 for i in range(len(inpList)):
   inpList[i] = int(inpList[i])
   

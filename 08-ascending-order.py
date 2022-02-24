@@ -1,16 +1,13 @@
-try:
-  a = float(input("Enter first number: "))
-  b = float(input("Enter second number: "))
-  c = float(input("Enter third number: "))
 
-  num_list = [a, b, c]
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+c = float(input("Enter third number: "))
 
-  num_list.sort()
-  print("Ascending order: ")
+num_list = [a, b, c]
 
-  for num in num_list:
-    print(num)  
+num_list.sort()
+print("Ascending order: ")
 
-except ValueError:
-  print("Incorrect input. ValueError occured.")
+for num in num_list:
+  print(num)  
 

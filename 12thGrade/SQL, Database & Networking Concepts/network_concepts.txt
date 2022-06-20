@@ -1,0 +1,15 @@
+Network: An inter-connected collection of autonomous computers.
+
+Bridge: A device that links two networks together.
+
+Router: A device that works like a Bridge but can handle different protocols.
+
+Hub: A hardware device used to connect several computers together.
+
+Gateway: A device that connects dissimilar networks.
+
+DNS: Domain Naming System, it translates domain names to IP address, so that browsers can load Internet resources.
+
+Protocol: It is a set of rules using which all parties of a network connect & interact with one another.
+
+Bandwidth: A band of frequencies used for sending electronic signals. It is also the amount of data that can be transmitted in fixed time.

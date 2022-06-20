@@ -1,0 +1,16 @@
+SQL: The Structured Query Language  (SQL) is a language that enables us to create and operate on relational databases,
+which are sets of related information, stored in tables.
+
+DDL: Data Definition Language (DDL) commands are commands that allow us to perform tasks related to data definition.
+For example: 
+1. Creating, altering and dropping
+2. Granting and revoking priviledges
+3. Maintenance commands
+
+DML: Data Manipulation Language (DML) commands are commands that allow us to perform data manipulation.
+For example:
+1. retrieval
+2. insertion
+3. deletion
+4. modification
+

@@ -1,13 +1,13 @@
 import mysql.connector as conn
 
-#this line not necessary if you give some fixed name like 'mydb' to database in line 6
+#this line is not necessary if you give some fixed name like 'mydb' to database in line 6
 db_name = input("Enter name of database: ")
 
 db = conn.connect(host='localhost', user='root', password='root', database=db_name)
 
 cursor = db.cursor()
 
-#following lines not necessary if you give some fixed name like 'mytable', 'clm1' instead
+#following lines is not necessary if you give some fixed name like 'mytable', 'clm1' instead
 table_name = input("Enter name of table: ")
 clm_name = input("Enter name of respective column: ")
 
